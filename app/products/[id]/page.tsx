@@ -43,7 +43,7 @@ export default function ProductDetail({ params }: ProductPageProps) {
               className="mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8"
             >
               <li>
-                <div className="flex items-center">
+                <div className="flex items-center text-black">
                   <Link
                     href="/"
                     className="mr-2 text-sm font-medium text-gray-900"
@@ -62,7 +62,7 @@ export default function ProductDetail({ params }: ProductPageProps) {
                 </div>
               </li>
 
-              <li className="text-sm">
+              <li className="text-sm text-black">
                 <Link
                   href="#"
                   aria-current="page"
@@ -145,7 +145,7 @@ export default function ProductDetail({ params }: ProductPageProps) {
 
               {/* Colors */}
                 <div>
-                  <h3 className="text-sm font-semibold text-black-900 mt-6">Color</h3>
+                  <h3 className="text-sm font-semibold text-black mt-6">Color</h3>
                   <fieldset aria-label="Choose a color" className="mt-4">
                     <div className="grid grid-cols-4 gap-3">
                       {product.color && product.color.length > 0 ? (
@@ -154,7 +154,7 @@ export default function ProductDetail({ params }: ProductPageProps) {
                             key={index}
                             aria-label={size}
                             className="group relative flex items-center justify-center rounded-md border border-gray-300 bg-gray-50 p-3 
-                                      text-black-500 select-none"
+                                      text-black select-none"
                           >
                             {/* Radio dinonaktifkan */}
                             <input
