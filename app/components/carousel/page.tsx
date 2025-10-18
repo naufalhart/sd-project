@@ -21,7 +21,7 @@ export default function Carousel({ images = [] }: CarouselProps) {
   if (!images || images.length === 0) return null;
 
   return (
-    <div className="relative w-full overflow-hidden aspect-[21/9]">
+    <div className="bg-white relative w-full overflow-hidden aspect-[21/9]">
       <div
         className="flex transition-transform duration-700 ease-in-out"
         style={{ transform: `translateX(-${current * 100}%)` }}

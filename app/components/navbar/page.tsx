@@ -26,16 +26,16 @@ export default function Navbar() {
 
           {/* Navigation Links */}
           <div className="hidden sm:flex space-x-10">
-            <Link href="/" className="text-black-700 hover:text-gray-900 font-serif font-semibold">
+            <Link href="/" className="text-black hover:text-gray-900 font-serif font-semibold">
               Home
             </Link>
-            <Link href="#products" className="text-black-700 hover:text-gray-900 font-serif font-semibold">
+            <Link href="#products" className="text-black hover:text-gray-900 font-serif font-semibold">
               Products
             </Link>
-            <Link href="#testimoni" className="text-black-700 hover:text-gray-900 font-serif font-semibold">
+            <Link href="#testimoni" className="text-black hover:text-gray-900 font-serif font-semibold">
               Testimoni
             </Link>
-            <Link href="#footer" className="text-black-700 hover:text-gray-900 font-serif font-semibold">
+            <Link href="#footer" className="text-black hover:text-gray-900 font-serif font-semibold">
               Contact
             </Link>
           </div>
