@@ -19,10 +19,10 @@ export default function Footer() {
                                 <a href="https://wa.me/62817737961" className="hover:underline me-4 md:me-6">Whatsapp</a>
                             </li>
                             <li>
-                                <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
+                                <a href="https://www.tiktok.com/@shintadewibatik" className="hover:underline me-4 md:me-6">TikTok</a>
                             </li>
                             <li>
-                                <a href="#" className="hover:underline">Contact</a>
+                                <a href="https://shopee.co.id/shintadewi_boutique" className="hover:underline">Shopee</a>
                             </li>
                         </ul>
                     </div>

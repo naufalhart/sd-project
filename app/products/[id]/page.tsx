@@ -229,7 +229,7 @@ export default function ProductDetail({ params }: ProductPageProps) {
                             key={index}
                             aria-label={size}
                             className="group relative flex items-center justify-center rounded-md border border-gray-300 bg-gray-50 p-3 
-                                      text-black-500 select-none"
+                                      text-black select-none"
                           >
                             {/* Radio dinonaktifkan */}
                             <input
